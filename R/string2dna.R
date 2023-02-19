@@ -16,7 +16,7 @@
 string2dna <- function(x, method="encode") {
   if (method=="encode") {
     letters <- toupper(strsplit(x, "")[[1]])
-    if (!all(letters %in% codebook$letter)) stop("Invalid character in string.")
+    letters <- letters[letters %in% codebook$letter]
     codons <- codebookv[letters]
     string <- paste(codons, collapse="")
     return(string)
