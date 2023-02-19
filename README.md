@@ -4,6 +4,8 @@
 # string2dna
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/stephenturner/string2dna/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/stephenturner/string2dna/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The string2dna provides a function to encode strings as nucleotide

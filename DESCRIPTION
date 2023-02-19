@@ -14,3 +14,4 @@ Roxygen: list(markdown = TRUE)
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://stephenturner.github.io/string2dna/
