@@ -1,0 +1,8 @@
+library(dplyr)
+library(readr)
+library(tidyr)
+library(tibble)
+codebook <- read_csv("data-raw/codebook.csv", col_types="cc")
+codebook <- codebook %>% mutate(letter=replace_na(letter, " "))
+codebookv <- deframe(codebook)
+usethis::use_data(codebook, codebookv, internal=TRUE, overwrite = TRUE)
