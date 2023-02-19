@@ -10,7 +10,7 @@ ui <- fluidPage(
         inputId = "x",
         label = "Text to encode or sequence to decode",
         value = "",
-        placeholder = "Stephen Turner"
+        placeholder = "e.g., Stephen Turner"
       ),
       radioButtons(
         inputId = "method",
