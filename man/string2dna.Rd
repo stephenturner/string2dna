@@ -21,3 +21,6 @@ Encode a string into a DNA sequence or decode a DNA sequence into a string.
 string2dna("Stephen Turner", method="encode")
 string2dna("TGATAGCTAGAGCGTCTACTCAGCTAGGATCACCTCCTACAC", method="decode")
 }
+\references{
+\url{https://github.com/lurbano/dnaWriter/blob/main/dna_writer.js}
+}

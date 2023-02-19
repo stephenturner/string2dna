@@ -1,11 +1,13 @@
-#' String to DNA encoder/decoder
-#'
-#' Encode a string into a DNA sequence or decode a DNA sequence into a string.
+#' @title String to DNA encoder/decoder
+#' @description Encode a string into a DNA sequence or decode a DNA sequence into a string.
 #'
 #' @param x A string
 #' @param method Either `encode` (turn a string into a nucleotide sequence), or `decode` (turn a nucleotide sequence into a string).
 #'
 #' @return A string
+#'
+#' @references <https://github.com/lurbano/dnaWriter/blob/main/dna_writer.js>
+#'
 #' @export
 #'
 #' @examples
