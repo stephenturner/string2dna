@@ -3,7 +3,7 @@ library(string2dna)
 
 ui <- fluidPage(
   titlePanel("string2dna"),
-  markdown("Enter a string to encode to a nucleotide sequence. Alternatively, enter a nucleotide sequence (multiple of three) to decode into plain text. See [stephenturner.github.io/string2dna/](https://stephenturner.github.io/string2dna/) for details."),
+  markdown("Enter a string to encode to a nucleotide sequence. Alternatively, enter a nucleotide sequence (multiple of three) to decode into plain text. See [github.com/stephenturner/string2dna](https://github.com/stephenturner/string2dna/) for details."),
   sidebarLayout(
     sidebarPanel(
       textInput(
