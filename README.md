@@ -43,3 +43,8 @@ pride <- readr::read_lines("https://www.gutenberg.org/cache/epub/1342/pg1342.txt
 pride <- paste(pride, collapse=" ")
 string2dna(pride, method="encode")
 ```
+
+## Shiny App
+
+A simple Shiny app is available at
+[stephenturner.shinyapps.io/string2dna](https://stephenturner.shinyapps.io/string2dna/).
